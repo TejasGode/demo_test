@@ -1,0 +1,5 @@
+{
+  "name": "TallyFlow Payment Reminders",
+  "description": "A simple and powerful Payment Reminder web application to visualize outstanding invoices from TallyPrime/ERP and manage sending reminders via Email, WhatsApp, and SMS.",
+  "requestFramePermissions": []
+}

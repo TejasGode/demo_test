@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TallyFlow Payment Reminders</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#0D47A1',
+                light: '#1E88E5',
+                dark: '#0a3882',
+              },
+              secondary: '#FFC107',
+              accent: '#4CAF50',
+              danger: '#F44336',
+              warning: '#FF9800',
+              neutral: {
+                50: '#F8FAFC',
+                100: '#F1F5F9',
+                200: '#E2E8F0',
+                300: '#CBD5E1',
+                400: '#94A3B8',
+                500: '#64748B',
+                600: '#475569',
+                700: '#334155',
+                800: '#1E293B',
+                900: '#0F172A'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.15.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-neutral-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
